@@ -2,7 +2,8 @@
 
 FormHawk crawls a target site (within the same origin), maps forms and parameters, audits cookies and security headers, and (optionally) performs a safe reflection check with a unique marker. **Default behaviour is passive**, meaning only GET requests are sent and no data is modified.
 
-> **LEGAL & ETHICAL NOTICE**: Use this tool only on systems you own or have explicit permission to test. FormHawk performs harmless GET requests by default. Active checks are limited to adding a benign marker via the query string and must be explicitly enabled.
+> **Ethics**: For education & authorized testing only.
+Misuse may violate laws and policies. You are responsible for your action
 
 ## Quick start
 
