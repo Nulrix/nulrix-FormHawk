@@ -42,5 +42,3 @@ Misuse may violate laws and policies. You are responsible for your actions.
 - Add additional security checks (e.g. password autocomplete detection, mixed content checks) by modifying `formhawk.py`.
 - Integrate with other tools by importing `formhawk.py` as a module and using its functions.
 - Build a small web UI or API around the JSON output for team‑wide reports.
-
-MIT licensed. Created by **Nulrix** for educational and authorized penetration testing use.
