@@ -29,7 +29,8 @@ python3 formhawk.py -u https://target.example --active
 - **JSON export** of the full report plus a human‑friendly summary in the terminal.
 
 ## Ethics
-For education & authorized testing only. Misuse may violate laws and policies. You are responsible for your action
+> **For education & authorized testing only.**  
+Misuse may violate laws and policies. You are responsible for your actions.
 
 ## Files
 
