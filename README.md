@@ -2,9 +2,6 @@
 
 FormHawk crawls a target site (within the same origin), maps forms and parameters, audits cookies and security headers, and (optionally) performs a safe reflection check with a unique marker. **Default behaviour is passive**, meaning only GET requests are sent and no data is modified.
 
-**Ethics**: For education & authorized testing only.
-Misuse may violate laws and policies. You are responsible for your action
-
 ## Quick start
 
 Install dependencies using a virtual environment (recommended):
@@ -31,12 +28,8 @@ python3 formhawk.py -u https://target.example --active
 - **Optional active reflection probe**: appends a unique inert marker to query strings on GET endpoints and reports whether the marker appears in the response body. This can highlight pages vulnerable to reflected XSS or SSRF without performing any malicious payloads. No limit is enforced on the number of probes unless specified.
 - **JSON export** of the full report plus a human‑friendly summary in the terminal.
 
-## Ethics & Safety
-
-- **Passive by default**: FormHawk will never send POST requests or modify server state unless extended by you. The active probe uses only GET requests and requires the `--active` flag.
-- **Rate limiting (optional)**: By default there is no rate limiting. You can throttle requests per second with the `--rps` option to avoid overwhelming the target server.
-- **Scope control**: The crawler only follows links within the same origin as the base URL to prevent out‑of‑scope requests.
-- Always obtain **explicit authorization** before scanning any system. Unauthorized scanning is illegal.
+## Ethics
+For education & authorized testing only. Misuse may violate laws and policies. You are responsible for your action
 
 ## Files
 
